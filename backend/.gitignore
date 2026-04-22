@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+.venv/
+venv/
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Firebase secrets
+serviceAccountKey.json
+*service-account*.json
+*firebase-adminsdk*.json
+
+# IDE
+.vscode/
+.idea/
