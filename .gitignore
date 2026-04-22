@@ -1,0 +1,14 @@
+# Secrets and local credentials
+firebase.json
+*service-account*.json
+*firebase-adminsdk*.json
+serviceAccountKey.json
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Local editor/runtime artifacts
+.vscode/tasks.json
+backend/.uvicorn_test_pid
